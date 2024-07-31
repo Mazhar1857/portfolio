@@ -1,0 +1,38 @@
+@media(min-width:700px) {
+    .mobileNav {
+        display: none;
+    }
+}
+
+@media(max-width:700px) {
+    .open {
+        .mobileNav {
+            position: fixed;
+            top: 75px;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            right: 1em;
+            width: 50%;
+            padding: 20px 60px;
+            font-weight: 600;
+            color: white;
+
+            >div {
+                margin-bottom: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+
+    .close {
+        .mobileNav {
+            display: none;
+        }
+    }
+
+}

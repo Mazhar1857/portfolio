@@ -1,0 +1,99 @@
+.project-item {
+    color: whitesmoke;
+    max-width: 342px;
+    min-width: 270px;
+    padding: 15px;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .thumbnail {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+
+        img {
+            min-height: 198px;
+            object-fit: fill;
+            overflow: hidden;
+            transition: 0.5s ease-in-out;
+        }
+
+        .btn {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            transition: 0.5s ease-in-out;
+
+            button {
+                width: 7.5rem;
+                height: 2.8rem;
+                background: transparent;
+                border: none;
+                border-radius: 100vmax;
+                color: rgb(0, 0, 0);
+                background-color: rgba(255, 255, 255, 0.5);
+                backdrop-filter: blur(1px);
+                font-family: inherit;
+                font-size: 1rem;
+                font-weight: bold;
+                letter-spacing: 1px;
+                transition: transform 0.5s ease-in-out;
+            }
+
+            button:hover {
+                transform: scale(1.2);
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+                cursor: pointer;
+                transition: transform 0.5s ease-in-out;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .thumbnail:hover {
+        position: relative;
+
+        img {
+            transform: scale(1.1);
+
+            position: relative;
+            transition: 0.5s ease-in-out;
+        }
+
+        .btn {
+            height: 70px;
+            transition: 0.5s ease-in-out;
+            z-index: 1;
+        }
+    }
+
+    .thumbnail:hover::after {
+        content: '';
+        inset: 0;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    >div:last-child {
+        padding: 10px 10px 0;
+        text-align: center;
+
+        div {
+            font-size: 1.7rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+    }
+}
