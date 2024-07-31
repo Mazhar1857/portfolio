@@ -12,5 +12,12 @@ export const projects = [
         demoUrl: 'https://mazhar1857.github.io/country-info/',
         gitUrl: 'https://github.com/Mazhar1857/country-info',
         type: 'advance'
+    },
+    {
+        name: 'Rock, Paper, Scissor',
+        img: './rockPaper.png',
+        demoUrl: 'https://mazhar1857.github.io/country-info/',
+        gitUrl: 'https://github.com/Mazhar1857/country-info',
+        type: 'advance'
     }
 ]
