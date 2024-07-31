@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='name'>Mazhar Ali</div>
                 <div className='role'>Frontend Developer</div>
                 <div className='btn'>
-                    <a href="/Mazhar_frontend.pdf" download='Mazhar_frontend.pdf'>
+                    <a href="./Mazhar_frontend.pdf" download='Mazhar_frontend.pdf'>
                         <button>Download CV</button>
                     </a>
                     <a href="#contact">
