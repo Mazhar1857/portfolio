@@ -16,8 +16,8 @@ export const projects = [
     {
         name: 'Rock, Paper, Scissor',
         img: './rockPaper.png',
-        demoUrl: 'https://mazhar1857.github.io/game-of-life/',
-        gitUrl: 'https://github.com/Mazhar1857/game-of-life',
+        demoUrl: 'https://mazhar1857.github.io/rock-paper-scissor/',
+        gitUrl: 'https://github.com/Mazhar1857/rock-paper-scissor',
         type: 'advance'
     },
     {
