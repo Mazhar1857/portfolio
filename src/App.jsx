@@ -43,17 +43,17 @@ function App() {
       <Routes>
         <Route path='/' element={(<section className='container'>
           <section className='nav-section'><Navigation sideNav={sideNav} handleMobileNav={handleMobileNav} /></section>
-          <section className='home-section'><Home /></section>
-          <section className='skill-section'><Skills /></section>
-          <section className='project-section'><Project type={advanceProject} />
+          <section className='home-section' id='home'><Home /></section>
+          <section className='skill-section' id='skill'><Skills /></section>
+          <section className='project-section' id='project'><Project type={advanceProject} />
             <section className='more-project-btn'>
               <img className='left' src={leftArrow} alt="" />
               <button onClick={() => navigate('/projects')}>More Project ...</button>
             </section>
           </section>
 
-          <section className='about-section'> <About /></section>
-          <section className='contact-section'><Contact /></section>
+          <section className='about-section' id='about'> <About /></section>
+          <section className='contact-section' id='contact'><Contact /></section>
           <section className={sideNav}><MobileNav /></section>
         </section>)} />
 
