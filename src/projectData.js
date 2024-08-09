@@ -60,7 +60,7 @@ export const projects = [
     },
     {
         name: 'Age Calculator',
-        img: './thumbnail/interactivePricing.png',
+        img: './thumbnail/ageCalculator.png',
         demoUrl: 'https://mazhar1857.github.io/age-calculator/',
         gitUrl: 'https://github.com/Mazhar1857/age-calculator',
         type: 'beginner'
