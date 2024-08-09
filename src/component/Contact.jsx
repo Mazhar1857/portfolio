@@ -7,7 +7,7 @@ import twitter from '../assets/twitter.png'
 import github from '../assets/gitHub.png'
 const Contact = () => {
     return (
-        <div className='contact' id='contact'>
+        <div className='contact' >
             <div>Contact Me</div>
             <div className='line'></div>
             <ul>

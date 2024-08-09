@@ -9,7 +9,7 @@ import saga from '../assets/saga.png'
 import router from '../assets/router.png'
 const Skills = () => {
     return (
-        <div className='skills' id='skill'>
+        <div className='skills'>
             <div>Skills</div>
             <div className='line'></div>
 

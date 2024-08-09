@@ -3,7 +3,7 @@ import './Home.css'
 import pic from '../assets/pic-1.png'
 const Home = () => {
     return (
-        <div className='home' id='home'>
+        <div className='home' >
             <div>
                 <img src={pic} alt="" />
             </div>

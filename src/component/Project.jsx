@@ -4,7 +4,7 @@ import ProjectItem from './ProjectItem'
 import { projects } from '../projectData'
 const Project = ({ type, title = 'Projects' }) => {
     return (
-        <div className='project' id='projects'>
+        <div className='project'>
             <div>{title}</div>
             <div className='line'></div>
             <div className='projects'>
