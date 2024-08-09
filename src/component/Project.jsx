@@ -2,13 +2,13 @@ import React from 'react'
 import './Project.css'
 import ProjectItem from './ProjectItem'
 import { projects } from '../projectData'
-const Project = () => {
+const Project = ({ type, title = 'Projects' }) => {
     return (
         <div className='project' id='projects'>
-            <div>Projects</div>
+            <div>{title}</div>
             <div className='line'></div>
             <div className='projects'>
-                {projects.map((item, index) => (
+                {type && type.map((item, index) => (
                     <div key={index}>
                         <ProjectItem
                             name={item.name}
