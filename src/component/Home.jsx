@@ -1,7 +1,16 @@
 import React from 'react'
 import './Home.css'
 import pic from '../assets/pic-1.png'
+import { Link } from 'react-router-dom'
 const Home = () => {
+
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' })
+        }
+    }
+
     return (
         <div className='home' >
             <div>
@@ -15,9 +24,9 @@ const Home = () => {
                     <a href="./Mazhar_frontend.pdf" download='Mazhar_frontend.pdf'>
                         <button>Download CV</button>
                     </a>
-                    <a href="#contact">
+                    <Link to='/' onClick={() => scrollToSection('contact')}>
                         <button>Contact Info</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
