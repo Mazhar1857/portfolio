@@ -27,7 +27,7 @@ export const projects = [
         gitUrl: 'https://github.com/Mazhar1857/game-of-life',
         type: 'advance'
     },
-    
+
     /*------------------------------- */
 
     {
@@ -56,6 +56,27 @@ export const projects = [
         img: './thumbnail/interactivePricing.png',
         demoUrl: 'https://mazhar1857.github.io/interactive-pricing/',
         gitUrl: 'https://github.com/Mazhar1857/interactive-pricing',
+        type: 'beginner'
+    },
+    {
+        name: 'Age Calculator',
+        img: './thumbnail/interactivePricing.png',
+        demoUrl: 'https://mazhar1857.github.io/age-calculator/',
+        gitUrl: 'https://github.com/Mazhar1857/age-calculator',
+        type: 'beginner'
+    },
+    {
+        name: 'Interactive Rating',
+        img: './thumbnail/interactiveRating.png',
+        demoUrl: 'https://mazhar1857.github.io/interactive-rating/',
+        gitUrl: 'https://github.com/Mazhar1857/interactive-rating',
+        type: 'beginner'
+    },
+    {
+        name: 'Intro SignUp Form',
+        img: './thumbnail/introSignUpForm.png',
+        demoUrl: 'https://mazhar1857.github.io/intro-signup-form/',
+        gitUrl: 'https://github.com/Mazhar1857/intro-signup-form',
         type: 'beginner'
     },
 
