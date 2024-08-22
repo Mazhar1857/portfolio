@@ -1,5 +1,12 @@
 export const projects = [
     {
+        name: 'Quiz App',
+        img: './thumbnail/quizApp.png',
+        demoUrl: 'https://mazhar1857.github.io/quiz-app/',
+        gitUrl: 'https://github.com/Mazhar1857/quiz-app',
+        type: 'advance'
+    },
+    {
         name: 'News App',
         img: './thumbnail/newsApp.png',
         demoUrl: 'https://mazhar1857.github.io/news-shala/#/top',
